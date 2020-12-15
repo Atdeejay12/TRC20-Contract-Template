@@ -11,12 +11,12 @@ import "./ERC20Detailed.sol";
  * Note they can later distribute these tokens as they wish using `transfer` and other
  * `ERC20` functions.
  */
-contract ctetherusdt is ERC20, ERC20Detailed {
+contract cDEFI is ERC20, ERC20Detailed {
 
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("CTETHERUSDT", "CUSDTDEFI", 18) {
-        _mint(msg.sender, 50000 * (14 ** uint256(decimals())));
+    constructor () public ERC20Detailed("cDEFI", "cDEFI", 18) {
+        _mint(msg.sender, 5 * (5 ** uint256(decimals())));
     }
 }
